@@ -1,0 +1,21 @@
+.product-details {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  gap: 30px;
+}
+.product-details img {
+  width: 250px;
+  border-radius: 8px;
+}
+.product-details .info {
+  max-width: 400px;
+  text-align: left;
+}
+.product-details button {
+  padding: 10px 20px;
+  background-color: #f0c14b;
+  border: 1px solid #a88734;
+  border-radius: 4px;
+  cursor: pointer;
+}

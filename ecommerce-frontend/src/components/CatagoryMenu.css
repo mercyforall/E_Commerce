@@ -1,0 +1,43 @@
+.menu-container {
+  position: relative;
+  width: 250px;
+  margin: 20px;
+}
+
+.hamburger {
+  width: 30px;
+  height: 24px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hamburger span {
+  height: 4px;
+  background: #333;
+  border-radius: 2px;
+}
+
+.category-list {
+  display: none;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.category-list.show {
+  display: block;
+}
+
+.category-list li {
+  list-style: none;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.category-list li:last-child {
+  border-bottom: none;
+}
